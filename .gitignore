@@ -1,0 +1,76 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/My First Project with Kotlin/*
+!/My First Project with Kotlin/task/
+/My First Project with Kotlin/task/*
+!/My First Project with Kotlin/task/src
+
+# Project exclude paths
+/Topics/Comments/Find the correct comment/out/
+/Topics/Comments/Find the correct comment/out/production/classes/
+/Topics/Comments/Hello, Kotlin/out/
+/Topics/Comments/Hello, Kotlin/out/production/classes/
+/Topics/Comments/Incorrect comment/out/
+/Topics/Comments/Incorrect comment/out/production/classes/
+/Topics/Comments/Incorrect comments/out/
+/Topics/Comments/Incorrect comments/out/production/classes/
+/Topics/Comments/Rectangles' hidden secrets unveiled/out/
+/Topics/Comments/Rectangles' hidden secrets unveiled/out/production/classes/
+/Topics/Comments/Theory/out/
+/Topics/Comments/Theory/out/production/classes/
+/Topics/Comments/Uncomment some lines/out/
+/Topics/Comments/Uncomment some lines/out/production/classes/
+/Topics/Comments/Unused comments/out/
+/Topics/Comments/Unused comments/out/production/classes/
+/Topics/Errors in programs/Fix the program/out/
+/Topics/Errors in programs/Fix the program/out/production/classes/
+/Topics/Standard input with Java Scanner/A function for reading data/out/
+/Topics/Standard input with Java Scanner/A function for reading data/out/production/classes/
+/Topics/Standard input with Java Scanner/Create an application for integer input and output/out/
+/Topics/Standard input with Java Scanner/Create an application for integer input and output/out/production/classes/
+/Topics/Standard input with Java Scanner/Four numbers/out/
+/Topics/Standard input with Java Scanner/Four numbers/out/production/classes/
+/Topics/Standard input with Java Scanner/Scanner/out/
+/Topics/Standard input with Java Scanner/Scanner/out/production/classes/
+/Topics/Standard input with Java Scanner/The suitable inputs/out/
+/Topics/Standard input with Java Scanner/The suitable inputs/out/production/classes/
+/Topics/Standard input with Java Scanner/Theory/out/
+/Topics/Standard input with Java Scanner/Theory/out/production/classes/
+/Topics/String basics/Appending numbers to strings/out/
+/Topics/String basics/Appending numbers to strings/out/production/classes/
+/Topics/String basics/Concatenation/out/
+/Topics/String basics/Concatenation/out/production/classes/
+/Topics/String basics/Correct ways to create a string/out/
+/Topics/String basics/Correct ways to create a string/out/production/classes/
+/Topics/String basics/Creating an Application to Change User Input to Uppercase/out/
+/Topics/String basics/Creating an Application to Change User Input to Uppercase/out/production/classes/
+/Topics/String basics/I'm learning Kotlin/out/
+/Topics/String basics/I'm learning Kotlin/out/production/classes/
+/Topics/String basics/JSON/out/
+/Topics/String basics/JSON/out/production/classes/
+/Topics/String basics/Theory/out/
+/Topics/String basics/Theory/out/production/classes/
+/Topics/String basics/Thrice-echoed positivity booster/out/
+/Topics/String basics/Thrice-echoed positivity booster/out/production/classes/
+/Topics/String templates/Date and time formatting/out/
+/Topics/String templates/Date and time formatting/out/production/classes/
+/Topics/String templates/Generating custom notification message for user/out/
+/Topics/String templates/Generating custom notification message for user/out/production/classes/
+/Topics/String templates/How to write string templates/out/
+/Topics/String templates/How to write string templates/out/production/classes/
+/Topics/String templates/String and its Int/out/
+/Topics/String templates/String and its Int/out/production/classes/
+/Topics/String templates/Theory/out/
+/Topics/String templates/Theory/out/production/classes/
+/Topics/String templates/What are string templates/out/
+/Topics/String templates/What are string templates/out/production/classes/
