@@ -7,6 +7,6 @@ Here's the link to the project: https://hyperskill.org/projects/501
 
 Check out my profile: https://hyperskill.org/profile/619357970
 
-# Personal review
+# Ting jeg lærte
 Her ble jeg kjent med Kotlins syntaks, bruk av variabler (val og var), aritmetiske operasjoner og input-håndtering med Java Scanner. Jeg fikk også øvelse i typekonvertering og håndtering av ulike datatyper, noe som gjorde det enklere å manipulere og behandle data i Kotlin.
 
