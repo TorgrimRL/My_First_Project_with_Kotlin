@@ -1,6 +1,6 @@
 # My First Project with Kotlin
 
-Dette er et enkelt Kotlin-prosjekt som simulerer en butikk som beregner netto inntekt. Programmet viser faste inntekter og lar brukeren legge inn utgifter manuelt for å finne netto fortjeneste. Det er ment som en introduksjon til Kotlin og grunnleggende programmeringskonsepter.
+Dette er et enkelt Kotlin-prosjekt som simulerer en butikk som beregner netto inntekt. Programmet viser faste inntekter og lar brukeren legge inn utgifter manuelt for å finne netto fortjeneste. Det er ment som en introduksjon til Kotlin og grunnleggende programmeringskonsepter og hadde flere interne tester fra hyperskill den måtte bestå.
 
 ## Prosjektbeskrivelse
 
