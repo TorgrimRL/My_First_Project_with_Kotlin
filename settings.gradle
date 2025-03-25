@@ -1,8 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+    plugins {
+        id("org.gradle.toolchains.foojay-resolver-convention") version "0.9.0"
+    }
+}
 buildscript {
     repositories {
         maven { url 'https://packages.jetbrains.team/maven/p/hyperskill-hs-test/maven' }
         maven { url 'https://jitpack.io' }
     }
+
 
     dependencies {
         classpath "com.github.hyperskill:hs-gradle-plugin:release-SNAPSHOT"

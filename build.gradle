@@ -1,8 +1,13 @@
+import org.gradle.jvm.toolchain.JavaLanguageVersion
+import org.gradle.jvm.toolchain.JvmVendorSpec
+
+
 buildscript {
     apply plugin: 'hyperskill'
 
     repositories {
         mavenCentral()
+        gradlePluginPortal()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$hs.kotlin.version"
@@ -18,18 +23,19 @@ subprojects {
     def userJava = Integer.parseInt(JavaVersion.current().getMajorVersion())
     def hsJava = Integer.parseInt(hs.kotlin.javaVersion)
     def testJava = Math.max(userJava, hsJava)
+    def commonVersion = 21
 
-    java.toolchain.languageVersion = JavaLanguageVersion.of(testJava)
+    java.toolchain.languageVersion = JavaLanguageVersion.of(commonVersion)
 
     compileJava {
         javaCompiler = javaToolchains.compilerFor {
-            languageVersion = JavaLanguageVersion.of(userJava)
+            languageVersion = JavaLanguageVersion.of(commonVersion)
         }
     }
 
     compileTestJava {
         javaCompiler = javaToolchains.compilerFor {
-            languageVersion = JavaLanguageVersion.of(testJava)
+            languageVersion = JavaLanguageVersion.of(commonVersion)
         }
     }
 
@@ -61,6 +67,19 @@ subprojects {
     tasks.withType(JavaCompile) {
         options.encoding = 'utf-8'
     }
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
+        kotlinOptions {
+            jvmTarget = "$commonVersion"
+            freeCompilerArgs = ['-Xjsr305=strict']
+        }
+    }
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(commonVersion)
+        }
+    }
+
 }
 
 project(':util') {
